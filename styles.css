@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+    
+}
+@font-face {
+    font-family:'b1';
+    src: url("/font/YesevaOne-Regular.ttf");
+}
+/* Header style start */
+.bg{
+    background-color: #0a0b27;
+}
+
+.imgsz{
+    width: 125px;
+     height: auto;
+}
+/* Using !important to override Bootstrap styles */
+.px-2 {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+/* Using !important to override Bootstrap styles */
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.navbar-toggler-icon {
+    background-color:#afb2ff; /* Change the color of the icon */
+    border-radius: 3px;
+    width: 2rem; /* Adjust the width */
+    height: 2rem; /* Adjust the height */
+}
+
+
+.navbar-nav .dropdown-menu {
+    margin-top: 1rem; 
+}
+
+
+
+.nav-item .dropdown-menu {
+    border-radius: 0;
+    background-color: #e53f27;
+    border-bottom: 5px #0a0b27 solid;
+}
+.nav-item .dropdown-item {
+    background-color: transparent;
+    color: white;
+}
+.nav-item .dropdown-menu li a:hover {
+    background-color: transparent;
+    color: #0a0b27;
+    transition: 1s;
+}
+
+/* Using !important to override Bootstrap styles */
+.hover-red:hover {
+    color: #e53f27 !important;
+    transition: 1s!important;
+  }
+  
+/* header style end */
+.section-1{
+    padding-top: 70px;
+}
+/* col-1 start*/
+.appyfizz {  
+    height: 951px; 
+}
+.row .appyfizz img {
+    width: 400px;
+    height: 560px;
+}
+
+/* col-1 end */
+/*col-2 start*/
+.content { 
+    padding: 150px;
+    height: 951px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* col-2  end*/
+/*footer start */
+
+.col-lg-4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.col-lg-4 p {
+    font-size: 14px;
+}
+.col-lg-4 a:hover {
+    color: #e53f27;
+}
+
+/* footer end */
+
+
+/* Media Queries for Responsive Design */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .navbar-nav .nav-item {
+        margin-right: 0.75rem !important;
+    }
+
+    
+    .content {
+        padding: 100px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .appyfizz, .content {
+        height: auto;
+    }
+    .content {
+        padding: 50px;
+    }
+    .row .appyfizz img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .section-1 {
+        padding-top: 50px;
+    }
+    .content {
+        padding: 30px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .row .appyfizz img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .col-lg-4 p, .col-lg-4 a {
+        font-size: 12px;
+    }
+}
+
+/* Ensure images don't overflow their containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 1.5rem; 
+}
+
+
+
+
